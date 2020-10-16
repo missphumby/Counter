@@ -1,0 +1,55 @@
+body{
+    background-color: darkgoldenrod;
+    align-items: center;
+}
+
+#container{
+    display: block;
+    width: 450px;
+    height: 350px;
+    border: ridge 3px white;
+    padding:; 
+    text-align: center;
+    object-position: center;
+    align-self: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    line-height: 6px;
+}
+
+
+h2{
+    color: white;
+}
+
+ .nextBtn{
+    color: white;
+    background-color: darkblue;
+    padding: 6px;
+}
+
+.prevBtn{
+    color: white;
+    background-color: darkblue;
+    padding: 6px;
+}
+
+
+ .nextBtn:hover{
+    background-color: deepskyblue;
+     flex-wrap: wrap;
+}
+
+.prevBtn:hover{
+    background-color: deepskyblue;
+}
+
+#carrier{
+    font-size: 13rem;
+    font-family: sans-serif;
+
+}
+
+#Btn-container{
+    flex-wrap:wrap;
+}
